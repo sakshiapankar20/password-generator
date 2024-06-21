@@ -1,12 +1,12 @@
 // number conversion
-let score="hitesh"
+let score="sakshi"
 
-console.log(typeof score);
-console.log(typeof(score));
+// console.log(typeof score);
+// console.log(typeof(score));
 
 let valueInNumber=Number(score)
 console.log(typeof(valueInNumber))
-console.log(valueInNumber)
+// console.log(valueInNumber)
 
 // string to number=>NaN
 //"22"=>22
@@ -19,11 +19,11 @@ console.log(valueInNumber)
 let isLoggedIn=1
 
 let booleanLoggedIn=Boolean(isLoggedIn)
-console.log(booleanLoggedIn);
+// console.log(booleanLoggedIn);
 
 let name=undefined
 let name1=Boolean(name)
-console.log(name1);
+// console.log(name1);
 
 // 1 =>true
 //0=>false
@@ -37,7 +37,7 @@ console.log(name1);
 
 let title=false;
 let new1=String(title)
-console.log(new1)
+// console.log(new1)
 
 
 // 33=>33
@@ -46,5 +46,43 @@ console.log(new1)
 // true=>true and false=>false
 //""=>false
 
+// *************************operations************************
 
+let value=3
+let negValue=-value
+// console.log(negValue)
 
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2/2)
+console.log(2**2)
+console.log(2%2)
+
+let str1="hello"
+let str2=" sakshi"
+let str3=str1+str2
+// console.log(str3);
+
+// console.log(2+"3");
+// console.log("2"+2);
+// console.log("2"+"2");
+// console.log("2"+2+3);
+// console.log(2+2+"2")
+
+// console.log(true)
+// console.log(+true)
+// console.log(+"")
+
+let x=3
+let y=++x
+console.log(y);
+console.log(x);
+
+let a=4;
+let b=a++
+console.log(a)
+console.log(b)
+
+let g=4
+console.log(++g)
