@@ -6,7 +6,7 @@ let score="sakshi"
 
 let valueInNumber=Number(score)
 console.log(typeof(valueInNumber))
-// console.log(valueInNumber)
+console.log(valueInNumber)
 
 // string to number=>NaN
 //"22"=>22
