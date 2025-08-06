@@ -12,21 +12,40 @@
     </style>
 </head>
 <body class="bg-black">
-    <div>
-        <h1 id="title" class="heading">learing dom with chai aur code  <span style="display: none;">test text</span></h1>
-
-        <h2>Lorem, ipsum dolor.</h2>
-        <h2>Lorem ipsum dolor sit.</h2>
-        <h2>Lorem ipsum dolor sit amet.</h2>
-        <p>Lorem ipsum dolor sit.</p>
-
-        <input type="password" name="userPass" id="password">
-
-        <ul>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ul>
-    </div>
+   <div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+  
+   </div>
+   
 </body>
+
+<script>
+    const parent=document.querySelector('.parent');
+
+    // console.log(parent);
+    // console.log(parent.children[0].innerHTML);
+
+    // for (let i = 0; i < parent.children.length; i++) {
+    //     console.log(parent.children[i].innerHTML);
+        
+        
+    // }
+
+    parent.children[1].style.color="orange"
+    console.log(parent.firstElementChild.innerHTML);
+    console.log(parent.lastElementChild.innerText);
+
+    const dayOne=document.querySelector('.day');
+    console.log(dayOne.parentElement);
+
+    console.log(dayOne.nextElementSibling);
+    console.log("Nodes: ",parent.childNodes);
+    
+    
+    
+    
+   </script>
 </html>
