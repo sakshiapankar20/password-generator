@@ -17,5 +17,5 @@ function Calculate(event) {
   const bmi = weight / (height * height);
 
   // Display result
-  result.textContent = `Your BMI is: ${bmi.toFixed(2)}`;
+  result.textContent = `Your BMI is: ${bmi.toFixed(2)} kg/m2`;
 }
