@@ -28,6 +28,28 @@
   <!-- non -blocking code -> does not block execution-> read file Async -->
 
 <h1>Sakshi Apankar</h1>
+<button id="stop">Stop</button>
 
 </body>
+
+<script>
+
+ const saySakshi= function(){
+  console.log("hi Sakshi");
+ }
+
+ const changeText=function(){
+document.querySelector('h1').innerHTML="best day today"
+
+ }
+
+const changeMe=setTimeout(changeText,2000);
+
+document.querySelector("#stop").addEventListener('click', function(){
+  clearTimeout(changeMe);
+  console.log("stopped");
+})
+
+
+</script>
 </html>
