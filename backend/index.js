@@ -10,15 +10,15 @@ app.get("/",(req,res)=>{
 
 app.get("/twitter",(req,res)=>{
     res.send("hellotwitter");
-})
+});
 
 app.get("/login",(req,res)=>{
     res.send("this is login page");
-})
+});
 
 app.get("/youtube",(req,res)=>{
     res.send("<h2>sakshi apankar</h2>");
-})
+});
 
 app.listen(process.env.PORT, ()=>{
     console.log(`the app is running on port ${process.env.PORT}`);
