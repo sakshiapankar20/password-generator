@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+     <h1>Sakshi Apankar</h1>
+    <button id="stop">Stop</button>
+   
+</body>
+<script>
+
+
+
+
+    const heading=document.querySelector("h1");
+    const changeText=function(){
+        heading.innerHTML="Aspiring Software Developer"
+    }
+    const changeMe=setTimeout(changeText,2000);
+
+    const stopbtn=document.getElementById("stop");
+
+    stopbtn.addEventListener("click",function(){
+        clearTimeout(changeMe);
+        console.log("clear timeout!!");
+    })
+
+    
+
+</script>
+</html>

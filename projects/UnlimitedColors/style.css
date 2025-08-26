@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1{
+    color:  rgb(205, 197, 247);
+    margin-bottom: 20px;
+}
+
+div{
+    border: 2px solid rgb(161, 160, 160);
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px gray;
+    background-color: rgb(38, 38, 38);
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button{
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+    background-color: white;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+button:hover{
+     background-color: rgb(205, 197, 247);
+}
