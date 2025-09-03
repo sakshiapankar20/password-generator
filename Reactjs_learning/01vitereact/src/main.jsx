@@ -12,18 +12,18 @@ const reactEle=React.createElement(
   'click to visit google'
 )
 
-function Myapp(){
-  return(
-    <div>
-      <h3>hello this is day 3 of learning reactjs</h3>
-    </div>
-  )
-}
+// function Myapp(){
+//   return(
+//     <div>
+//       <h3>hello this is day 3 of learning reactjs</h3>
+//     </div>
+//   )
+// }
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {reactEle}
     <App/>
-    {Myapp()} 
+    {/* {Myapp()}  */}
     
     {/* this is the way to declare functions inside strict mode */}
   </StrictMode>
