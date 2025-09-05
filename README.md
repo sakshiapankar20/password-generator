@@ -1,1 +1,1 @@
-this is javascript learning repository
+this is javascript and Reactjs learning repository
