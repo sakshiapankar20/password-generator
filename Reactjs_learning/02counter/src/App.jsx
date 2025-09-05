@@ -14,7 +14,10 @@ const [counter,setCounter]=useState(0)
   else{
     console.log("clicked",counter);
   // counter=counter+1;
-  setCounter(counter+1)
+  setCounter(prevCnt=>prevCnt+1)
+  setCounter(prevCnt=>prevCnt+1)
+  setCounter(prevCnt=>prevCnt+1)
+  setCounter(prevCnt=>prevCnt+1)
   }
   
  }
