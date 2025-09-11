@@ -2,6 +2,8 @@ import React from "react";
 import {StrictMode} from "react";
 import {createRoot} from "react-dom/client"
 import App from "./App"
+import Hooks from "./Hooks";
+import Navbar from "./components/Navbar";
 
 const reactEle=React.createElement(
   'a',
@@ -21,8 +23,12 @@ const reactEle=React.createElement(
 // }
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     {reactEle}
     <App/>
+    <Navbar color={"navy"+"blue"}/>
+
+    <Hooks/>
     {/* {Myapp()}  */}
     
     {/* this is the way to declare functions inside strict mode */}
